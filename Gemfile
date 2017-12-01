@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # ~~ my gems ~~
 gem 'bootstrap-sass'
-gem 'jquery-rail'
+gem 'jquery-rails'
 gem 'font-awesome-rails'
 
 gem 'geocoder'
