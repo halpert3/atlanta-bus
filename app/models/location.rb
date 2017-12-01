@@ -3,7 +3,7 @@ class Location < ApplicationRecord
   after_validation :geocode
 
   def full_street_address
-    "#{street_address}, #{city}, GA"
+    "#{street_address.titleize}, #{city.titleize}, GA"
   end
 
 end
