@@ -18,7 +18,11 @@
 
   <div class="field form-group">
     <%= form.label :city %>
+    <%#= form_field.collection_select :location, :city_id, City.all:, :id, :location_city %>
+    <%# <%= form_field.collection_select :owner_id, Owner.all, :id, :name%>
+
     <%= form.text_field :city, id: :location_city, class: 'form-control' %>
+
   </div>
 
   <div class="actions">

@@ -41,6 +41,7 @@ gem 'font-awesome-rails'
 gem 'geocoder'
 gem 'stamp'
 
+gem 'figaro'
 
 
 group :development, :test do
